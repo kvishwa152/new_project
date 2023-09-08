@@ -1,0 +1,4 @@
+def odd_even(n):
+    print("1234")
+
+     

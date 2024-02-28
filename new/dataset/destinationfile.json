@@ -13,7 +13,7 @@
 				"fileName": "covid19des.tsv",
 				"fileSystem": "adsdestination"
 			},
-			"columnDelimiter": ",",
+			"columnDelimiter": "\t",
 			"escapeChar": "\\",
 			"firstRowAsHeader": true,
 			"quoteChar": "\""

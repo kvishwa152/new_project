@@ -1,0 +1,9 @@
+{
+	"name": "EUScovdf01",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "001cfb03-4194-4816-906b-c8b052953928",
+		"tenantId": "054157aa-8ff6-4243-81e1-b54ba6004ebc"
+	}
+}

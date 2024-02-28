@@ -1,0 +1,23 @@
+{
+	"name": "destinationfile",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "adlsstorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "covid19des.tsv",
+				"fileSystem": "adsdestination"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
